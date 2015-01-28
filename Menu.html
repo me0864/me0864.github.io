@@ -15,7 +15,7 @@ and open the template in the editor.
         <script src="Sentosa.js"></script>
     </head>
     <body>
-        <div class = "nav">
+        <div class = "top-bar">
             <div class = "container">
                 <ul class="pull-right">
                     <li><a href="index.html">Home</a></li>
@@ -30,25 +30,52 @@ and open the template in the editor.
                 <p>MENU</p>
             </div>
         </div>
-
-        <div class="articles container">
-            <div class="menu-type"> 
-                <h1>Chinese Cuisines</h1>
-            </div>
-
-            <div class="article ">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Soups</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+        
+        <div class="col-md-3 coltest menu-selection">
+            <p>Chinese</p>
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="csoups"><a href="#">Soups</a></li>
+                <li role="presentation" class="cappetizers"><a href="#">Appetizers</a></li>
+                <li role="presentation" class="chickandpork"><a href="#">Chicken and Pork</a></li>
+                <li role="presentation" class="beef"><a href="#">Beef</a></li>
+                <li role="presentation" class="shrimp"><a href="#">Shrimp</a></li>
+                <li role="presentation" class="vegetables"><a href="#">Vegetables</a></li>
+                <li role="presentation" class="chowmein"><a href="#">Chow Mein and Chop Suey</a></li>
+                <li role="presentation" class="friedrice"><a href="#">Fried Rice</a></li>
+                <li role="presentation" class="lomein"><a href="#">Lo Mein</a></li>
+                <li role="presentation" class="eggfooyoung"><a href="#">Egg Foo Young</a></li>
+                <li role="presentation" class="healthydiet"><a href="#">Healthy Diet Menu</a></li>
+                <li role="presentation" class="sideorders"><a href="#">Side Orders</a></li>
+                <li role="presentation" class="chef"><a href="#">Chef's Specials</a></li>
+                <li role="presentation" class="combo"><a href="#">Combo Platters</a></li>
+                <li role="presentation" class="clunch"><a href="#">Lunch Platters</a></li>
+            </ul>
+            
+            <p>Vegetarian</p>
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="vsoups"><a href="#">Soups</a></li>
+                <li role="presentation" class="vappetizers"><a href="#">Appetizers</a></li>
+                <li role="presentation" class="mainentree"><a href="#">Main Entree</a></li>
+                <li role="presentation" class="pasta"><a href="#">Pasta and Rice</a></li>
+                <li role="presentation" class="vegetarian"><a href="#">Vegetarian Specials</a></li>
+                <li role="presentation" class="vlunch"><a href="#">Lunch Specials</a></li>
+            </ul>
+            
+            <p>Specials</p>
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="ssoups"><a href="#">Soups</a></li>
+                <li role="presentation" class="sappetizers"><a href="#">Appetizers</a></li>
+                <li role="presentation" class="snoodles"><a href="#">Noodles</a></li>
+                <li role="presentation" class="sspecials"><a href="#">Sentosa Specials</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-md-7 coltest menu-table">
+            <h4>Select a category on the left to view the menu</h4>
+            <p>NOTE: Prices listed here might not always reflect the actual prices of the items at the restaurant</p>
+            <div class="description row dish-csoups">
+                
+                    <div class="col-xs-3"><h2>Soups</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -90,21 +117,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Appetizers</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-cappetizers">
+                    <div class="col-xs-3"><h2>Appetizers</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -160,21 +174,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Chicken and Pork</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-chickandpork">
+                    <div class="col-xs-3"><h2>Chicken<br>and<br>Pork</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -240,21 +241,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Beef</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-beef">
+                    <div class="col-xs-3"><h2>Beef</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -316,21 +304,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Shrimp</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-shrimp">
+                    <div class="col-xs-3"><h2>Shrimp</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -387,21 +362,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Vegetables</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-vegetables">
+                    <div class="col-xs-3"><h2>Vegetables</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -437,21 +399,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Chow Mein or Chop Suey</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-chowmein">
+                    <div class="col-xs-3"><h2>Chow Mein<br>and<br>Chop Suey</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -474,20 +423,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Fried Rice</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-friedrice">
+                    <div class="col-xs-3"><h2>Fried Rice</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -510,20 +447,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Lo Mein</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-lomein">
+                    <div class="col-xs-3"><h2>Lo Mein</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -546,20 +471,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Egg Foo Young</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-eggfooyoung">
+                    <div class="col-xs-3"><h2>Egg Foo Young</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -579,20 +492,8 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Healthy Diet Menu</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-healthydiet">
+                    <div class="col-xs-3"><h2>Healthy Diet Menu</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
@@ -636,20 +537,9 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
+            <div class="description row dish-sideorders">
+                    <div class="col-xs-3"><h2>Side Orders</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Side Order</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
                     <table>
                         <thead>
                             <tr>
@@ -680,24 +570,12 @@ and open the template in the editor.
                             <td>Crispy Noodles</td>
                             <td colspan="2">0.60</td>
                         </tr>
-
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-chef">
+                    <div class="col-xs-3"><h2>Chef's Specials</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Chef's Specials</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
-
                     <table>
                         <thead>
                             <tr>
@@ -764,22 +642,11 @@ and open the template in the editor.
                         </tr>
 
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-combo">
+                    <div class="col-xs-3"><h2>Combo Platter</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Combo Platter</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
-
                     <table>
                         <thead>
                             <tr>
@@ -864,7 +731,7 @@ and open the template in the editor.
                             <td colspan="2">7.95</td>
                         </tr>
                         <tr>                                
-                            <td>Shrimp /lo Mein or Egg Foo Young</td>
+                            <td>Shrimp Lo Mein or Egg Foo Young</td>
                             <td colspan="2">7.95</td>
                         </tr>
                         <tr>                                
@@ -891,23 +758,13 @@ and open the template in the editor.
                             <td>Broccoli or Mixed Vegs w. Garlic Sauce</td>
                             <td colspan="2">7.25</td>
                         </tr>
-
                     </table>
                 </div>
             </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
+            <div class="description row dish-clunch">
+                <div class="col-xs-3"><h2>Lunch Platter</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Lunch Platter</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+
                     <table>
                         <thead>
                             <tr>
@@ -1016,26 +873,12 @@ and open the template in the editor.
                             <td>Broccoli or Mixed Vegetables w. Garlic Sauce</td>
                             <td colspan="2">5.25</td>
                         </tr>
-
                     </table>
-                </div>
-            </div>
-            <div class="menu-type">
-                <h1>Vegetarian Cuisines</h1>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-vsoups">
+                <div class="col-xs-3"><h2>Soups</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Soups</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
                     <table>
                         <thead>
                             <tr>
@@ -1074,406 +917,276 @@ and open the template in the editor.
                             <td colspan="2">6.95</td>
                         </tr>
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-vappetizers">
+                <div class="col-xs-3"><h2>Appetizers</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Tasty Morsels</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
                     <table>
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
                                 <th scope="col" >Price</th>
-                                <th scope="col" ></th>
                             </tr>
                         </thead>
 
                         <tr>                                
                             <td>Autumn Rolls</td>
                             <td>4.50</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Sunshine Ribs</td>
                             <td>4.50</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Veg. Chicken Nuggets</td>
                             <td>6.50</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Sweet Yam Fries</td>
                             <td>3.50</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Subgum Platters</td>
                             <td>10.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Scallion Pancake</td>
                             <td>4.50</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Vegetable Dumplings (steamed or fried)</td>
                             <td>4.75</td>
-                            <td></td>
                         </tr>   
                         <tr>                                
                             <td>Peppercorn Potato</td>
                             <td>3.95</td>
-                            <td></td>
                         </tr>
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-mainentree">
+                <div class="col-xs-3"><h2>Main Entrees</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Main Entrees</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+                
                     <table>
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
                                 <th scope="col" >Price</th>
-                                <th scope="col" ></th>
                             </tr>
                         </thead>
                         <tr>                                
                             <td>Sweet and Sour Sensation</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Sweet and Sour Chicken</td>
                             <td>10.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Sweet and Sour Tofu</td>
                             <td>8.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Moo Shu Fantasia (no rice served)</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Steamed Assorted Vegetables</td>
                             <td>8.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Rose Petals</td>
                             <td>9.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tofu Delight</td>
                             <td>8.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tofu Crepe</td>
                             <td>10.50</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tangerine or Tso''s Tofu</td>
                             <td>8.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Harvest Delight Salad</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Shredded Melody</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>General Tso's Mushroom</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Curry Supreme</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Eggplant in Garlic Sauce</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Kung Po Wheat Gluten</td>
                             <td>
                                 9.95
                             </td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Shredded Heaven</td>
                             <td>9.25</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Lo-Han Chicken</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tso's Veg. Chicken (wheat gluten)</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Coconut or Pineapple Sensation</td>
                             <td>9.25</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Veg. Two Treasures</td>
                             <td>10.50</td>
-                            <td></td>
                         </tr>
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
                     </div>
+                </div>
+            <div class="description row dish-pasta">
+                <div class="col-xs-3"><h2>Pasta and Rice</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Pasta and Rice</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
                     <table>
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
                                 <th scope="col" >Price</th>
-                                <th scope="col" ></th>
                             </tr>
                         </thead>
                         <tr>                                
                             <td>Stir-Fried Brown Rice w. Veg.</td>
                             <td>6.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Curry Rice (white rice) w. Veg. Ham or Chicken Nuggets</td>
                             <td>8.50</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Stir- Fried Rice Noodle w. Vegetable</td>
                             <td>7.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Stir-Fried Flat Noodle w. Vegetable</td>
                             <td>7.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Peking Noodles</td>
                             <td>7.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Veg. Pad Thai w. Tofu or Chicken Nuggets</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tofu Lo Mein</td>
                             <td>7.75</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Stir-Fried Brown Rice w. Tofu or Chicken Nuggets</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Veg. Singapore Mei Fun</td>
                             <td>8.95</td>
-                            <td></td>
                         </tr>
                     </table>
-                </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Vegetarian Specials</p>
-                    </div>
-                    <div class="col-xs-3">
                     </div>
                 </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-vegetarian">
+                <div class="col-xs-3"><h2>Vegetarian Specials</h2></div>
                     <div class="col-xs-6">
                         <table>
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
                                     <th scope="col" >Price</th>
-                                    <th scope="col" ></th>
                                 </tr>
                             </thead>
                             <tr>                                
                                 <td>Sesame Chicken</td>
                                 <td>10.95</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Vegi Steak</td>
                                 <td>11.50</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Double Curry</td>
                                 <td>9.25</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>The Ant on the Tree</td>
                                 <td>9.95</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Tri-Vegi</td>
                                 <td>9.75</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Double Delight</td>
                                 <td>11.95</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Curry Buddhist Delight</td>
                                 <td>9.25</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Jade Crepe</td>
                                 <td>9.25</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Honey Pork</td>
                                 <td>9.25</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>House Delight</td>
                                 <td>11.50</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Tos's Combo</td>
                                 <td>10.75</td>
-                                <td></td>
                             </tr>                        <tr>                                
                                 <td>Tso's Delight</td>
                                 <td>10.75</td>
-                                <td></td>
                             </tr>
                         </table>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
+            <div class="description row dish-vlunch">
+                <div class="col-xs-3"><h2>Lunch Specials</h2></div>
                     <div class="col-xs-6">
-                        <p class="source">Lunch Specials</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
-                </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
 
                     <table>
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
                                 <th scope="col" >Price</th>
-                                <th scope="col" ></th>
                             </tr>
 
                         </thead>
                         <tr>                                
                             <td>Sweet and Sour Sensation</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Sweet and Sour Tofu</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Rose Petals</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Steamed Assorted Vegs.</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Tofu Delight</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Kung Po Wheat Gluten</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>General Tso's Mushroom or Veg. Chicken</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Curry Supreme or Tso's Tofu</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Shredded Heaven</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Shredded Melody</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Coconut Sensation</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>                        <tr>                                
                             <td>Honey Pork or Tofu w. Broccoli</td>
                             <td>5.95</td>
-                            <td></td>
                         </tr>
                     </table>
-                </div>
-            </div>
-            <div class="menu-type">
-                <h1>Specials</h1>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Soup</p>
-                    </div>
-                    <div class="col-xs-3">
                     </div>
                 </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-ssoups">
+                <div class="col-xs-3"><h2>Soups</h2></div>
+                <div class="col-xs-6">
                     <table>
                         <thead>
                             <tr>
@@ -1501,25 +1214,12 @@ and open the template in the editor.
                             <td>Tom Yum Seafood Soup</td>
                             <td colspan="2">8.95</td>
                         </tr>
-
-
-
                     </table>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Appetizers</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
                 </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-sappetizers">
+                <div class="col-xs-3"><h2>Appetizers</h2></div>
+                <div class="col-xs-6">
                     <table>
                         <thead>
                             <tr>
@@ -1539,24 +1239,12 @@ and open the template in the editor.
                             <td>Popiah (2)</td>
                             <td colspan="2">4.75</td>
                         </tr>
-
-
                     </table>
                 </div>
-            </div>
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Noodles</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
                 </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-snoodles">
+                <div class="col-xs-3"><h2>Noodles</h2></div>
+                <div class="col-xs-6">
                     <table>
                         <thead>
                             <tr>
@@ -1614,81 +1302,58 @@ and open the template in the editor.
                         </tr>
                     </table>
                 </div>
-            </div>
-            
-
-            <div class="article">
-                <div class="item row">
-                    <div class="col-xs-3">
-
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="source">Sentosa Specials</p>
-                    </div>
-                    <div class="col-xs-3">
-                    </div>
                 </div>
-                <div class="description row">
-                    <div class="col-xs-3">&nbsp;</div>
+            <div class="description row dish-sspecials">
+                <div class="col-xs-3"><h2>Sentosa Specials</h2></div>
+                <div class="col-xs-6">
                     <table>
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
                                 <th scope="col" >Price</th>
-                                <th scope="col" ></th>
                             </tr>
                         </thead>
                         <tr>                                
                             <td>Spicy Baby Shrimp with String Beans</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Peking Style Pork Chop</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Grand Marnier Jumbo Shrimp</td>
                             <td>12.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Peppercorn Jumbo Shrimp</td>
                             <td>12.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Curry Chicken (with carrots and potatoes)</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Peppercorn Pork Chop</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Pineapple Chicken or Pork</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Grand Marnier Chicken</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
                         <tr>                                
                             <td>Peppercorn Chicken</td>
                             <td>9.95</td>
-                            <td></td>
                         </tr>
 
                     </table>
                 </div>
-            </div>
-            
-
+                </div>
         </div>
+        
     </body>
 </html>

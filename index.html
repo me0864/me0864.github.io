@@ -16,8 +16,7 @@ and open the template in the editor.
         <script src="Sentosa.js"></script>
     </head>
     <body>
-
-        <div class = "nav">            
+        <div class = "nav top-bar">            
             <div class = "container">
                 <ul class="pull-left">
                     <li><a href="#" class="hours-click">Hours</a></li>
@@ -32,8 +31,9 @@ and open the template in the editor.
         </div>
 
         <div class="slider">
+            <div class="container">
 
-            <div class="slide intro-slide active-slide">
+            <div class="slide intro-slide active-slide jumbotron">
                 <div class="container" >
                     <div class="row">
                         <div class="slide-copy col-xs-5">
@@ -51,7 +51,7 @@ and open the template in the editor.
                 </div>      
             </div>
 
-            <div class="slide neighborhood-guides">
+            <div class="slide neighborhood-guides transparent-background">
                 <div class="container">
                     <h2>Free Items</h2>
                     <p>With Orders Over Certain Amounts</p>
@@ -71,7 +71,6 @@ and open the template in the editor.
                                 <img src = "#">
                             </div>
                             <p>Free Steamed Dumplings</p>
-
                         </div>
 
                         <div class = col-md-4>
@@ -80,57 +79,17 @@ and open the template in the editor.
                                 <img src = "Images/GenChicken.jpg">
                             </div>
                             <p>Free General Tso's Chicken</p>
-
                         </div>
                     </div>
-                </div>      
+                </div>       
             </div> 
-
-            <div class="slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="slide-copy col-xs-5">
-                            <h1>Enjoy Flipboard Magazines</h1>
-                            <h2>on the Web</h2>
-                            <p>Millions of people use Flipboard to read and collect the news they care about, curating their favorite stories into their own magazines on any topic imaginable. Now magazines created by our readers, from Dali to End Trafficking, can be shared and enjoyed on the Web by anyone, anywhere.</p>
-
-                        </div>
-                        <div class="slide-img col-xs-7">
-                            <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/magazines.png">
-                        </div>
-                    </div>
-                </div>      
-            </div> 
-
-            <div class="slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="slide-copy col-xs-5">
-                            <h1>Badges & Widgets</h1>
-                            <p>Millions of people use Flipboard to read and collect the news they care about, curating their favorite stories into their own magazines. Now you can promote the ones you create or think are awesome.</p>
-
-                            <ul class="get-app">
-                                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ios.png"></a></li>
-                                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/android.png"></a></li>
-                                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/windows.png"></a></li>
-                                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/blackberry.png"></a></li>
-                            </ul>
-                        </div>
-                        <div class="slide-img col-xs-7">
-                            <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/bw.png" width="540px">
-                        </div>
-                    </div>
-                </div>      
-            </div> 
-
+            </div>
         </div>
 
         <div class="slider-nav">
             <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
             <ul class="slider-dots">
                 <li class="dot active-dot">&bull;</li>
-                <li class="dot">&bull;</li>
-                <li class="dot">&bull;</li>
                 <li class="dot">&bull;</li>
             </ul>
             <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
@@ -167,15 +126,16 @@ and open the template in the editor.
         </div>
 
         <div class="panel dishes dishes-chinese">
+            <div class="container">
             <p>Chinese Dishes (pics will be added in the future)</p>
             <div class="fav-dishes">
-                <div class="icon-close">
+                <div class="icon-close-chinese">
                     <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
                 </div>
                 <div class="col-sm-2 popup">
                     <a href="#"> 
                         <p>General Tso's Chicken<span>what what what what</span></p>
-                        <div class="dishes-image">
+                        <div class="thumbnail">
                             <img src="#"> 
                         </div>
                     </a>
@@ -183,7 +143,7 @@ and open the template in the editor.
                 <div class="col-sm-2 popup">
                     <a href="#"> 
                         <p>Sweet and Sour Chicken<span>what what what what</span></p>
-                        <div class="dishes-image">
+                        <div class="thumbnail">
                             <img src="#"> 
                         </div>
                     </a>
@@ -191,7 +151,7 @@ and open the template in the editor.
                 <div class="col-sm-2 popup">
                     <a href="#"> 
                         <p>Lo Mein<span>what what what what</span></p>
-                        <div class="dishes-image">
+                        <div class="thumbnail">
                             <img src="#"> 
                         </div>
                     </a>
@@ -199,7 +159,7 @@ and open the template in the editor.
                 <div class="col-sm-2 popup">
                     <a href="#"> 
                         <p>Crab Rangoon<span>what what what what</span></p>
-                        <div class="dishes-image">
+                        <div class="thumbnail">
                             <img src="#"> 
                         </div>
                     </a>
@@ -207,24 +167,26 @@ and open the template in the editor.
                 <div class="col-sm-2 popup">
                     <a href="#"> 
                         <p>Boneless Spare Ribs<span>what what what what</span></p>
-                        <div class="dishes-image">
+                        <div class="thumbnail">
                             <img src="#"> 
                         </div>
                     </a>
                 </div>
-
             </div>    
+            </div>
         </div>
 
         <div class="panel dishes dishes-vegetarian">
+            <div class="container">
             <p>Vegetarian Dishes (pics will be added in the future)</p>
-            <div class="icon-close">
+            <div class="fav-dishes">
+            <div class="icon-closevegetarian">
                 <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
             </div>
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Sesame Veg. Chicken<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -232,7 +194,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Lo-Han Chicken<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -240,7 +202,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Veg. Chicken Nuggets<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -248,7 +210,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Autumn Roll<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -256,22 +218,26 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Sunshine Ribs<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
             </div>
+            </div>
+            </div>
         </div>
 
         <div class="panel dishes dishes-specials">
+            <div class="container">
             <p>Specials (pics will be added in the future)</p>
-            <div class="icon-close">
+            <div class="fav-dishes">
+            <div class="icon-closespecials">
                 <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
             </div>
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Tom Yum Soup<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -279,7 +245,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Satay Chicken<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -287,7 +253,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Pad Thai<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -295,7 +261,7 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Singapore Mee Hoon<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
@@ -303,10 +269,12 @@ and open the template in the editor.
             <div class="col-sm-2 popup">
                 <a href="#"> 
                     <p>Pineapple Chicken<span>what what what what</span></p>
-                    <div class="dishes-image">
+                    <div class="thumbnail">
                         <img src="#"> 
                     </div>
                 </a>
+            </div>
+            </div>
             </div>
         </div>
 

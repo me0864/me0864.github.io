@@ -7,7 +7,9 @@ and open the template in the editor.
     Created on : Dec 24, 2014, 6:45:57 PM
     Author     : Le Liu
 */
-
+body{
+    background: radial-gradient(white, orangered);
+}
 .icon-close {
     float: right;
     cursor: pointer;
@@ -15,17 +17,15 @@ and open the template in the editor.
     padding-top: 10px;
 }
 /* Navigation */
-.nav{
-    background: maroon;
-    border-bottom: #222;
-    margin: 0;
-    padding: 0;
-    height: 50px;
+.top-bar{
+    background: linear-gradient(maroon, white, maroon);
+    border-top:  2px red solid;
+    border-bottom:  2px red solid;
 }
-.nav li{
+.top-bar li{
     display: inline-block;
 }
-.nav a {
+.top-bar a {
     font-size: 16px;
     font-family: Arial;
     font-weight: normal;
@@ -35,7 +35,7 @@ and open the template in the editor.
     border-radius: 8px 8px 8px 8px;
     border: 1px solid #d83526;
     padding: 5px 10px;
-    margin: 0;
+    margin-top: 10px;
     text-shadow: 1px 1px 0px #b23e35;
     -webkit-box-shadow: inset 1px 1px 0px 0px #f29c93;
     -moz-box-shadow: inset 1px 1px 0px 0px #f29c93;
@@ -49,7 +49,7 @@ and open the template in the editor.
     background: linear-gradient(180deg, #fe1a00 5%, #ce0100 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe1a00",endColorstr="#ce0100");
 }
-.nav a:hover {
+.top-bar a:hover {
     background: -webkit-linear-gradient(90deg, #fe1a00 5%, #ce0100 100%);
     background: -moz-linear-gradient(90deg, #fe1a00 5%, #ce0100 100%);
     background: -ms-linear-gradient(90deg, #fe1a00 5%, #ce0100 100%);
@@ -62,11 +62,10 @@ and open the template in the editor.
 .slider {
     position: relative;
     width: 100%;
-    height: 470px;
+    height: 450px;
 }
 
 .slide {
-    background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
     background-size: cover;
     display: none;
     position: absolute;
@@ -133,6 +132,8 @@ and open the template in the editor.
 }
 .intro-slide{
     background-image: url('Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 .intro-slide h1{
     padding-left: 50px;
@@ -208,8 +209,6 @@ and open the template in the editor.
 }
 
 .neighborhood-guides{
-    background-color: #efefef;
-    background: linear-gradient(white, #efefef);
     border-top: 2px #959595 solid;
 }
 .neighborhood-guides h2{
@@ -222,6 +221,10 @@ and open the template in the editor.
     margin-bottom: 13px;
     text-align: center;
 }
+
+.thumbnail{
+    width: 60%;
+}
 .thumbnail img{
     border: 6px double tomato;
     border-radius: 20px;
@@ -229,6 +232,10 @@ and open the template in the editor.
 .thumbnail img:hover{
     border-color: red;
     cursor: pointer;
+    background: white
+}
+.thumbnail:after{
+    content: "";
 }
 
 .learn-more{
@@ -337,8 +344,8 @@ td {
     text-align: center;
 }
 th{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 thead {
     background: maroon;
@@ -471,20 +478,14 @@ footer{
 .dishes{
     position: relative;
     top: 0;
-    background: white;
-    height: 200px;
     width: auto;
     border: 5px red solid;
     border-radius: 20px;
+    background-color:rgba(255,255,0,0.3);
+
 }
 .dishes p{
     color: black;
-}
-
-
-.thumbnail{
-    width: 250px;
-    height:200px;        
 }
 
 .fav-hover{
@@ -497,8 +498,6 @@ footer{
 }
 
 .hours-click{
-    margin: 10px;
-    padding: 10px;
     margin-left: 20px;
     float: left;
     border: 1px #6fc5e0 groove;
@@ -534,7 +533,7 @@ footer{
     display: inline-block;
 }
 .col-sm-2{
-    width: 19%;
+    width: 18%;
 }
 .popup { 
     color: black;
@@ -551,9 +550,7 @@ footer{
 .popup a span {
 	display: none;
 }
-
-.popup a:hover { 
-}
+/*
 .popup a:hover span {
         border-radius: 10px;
 	display: block;
@@ -567,4 +564,38 @@ footer{
 	background: #e5e5e5;
 	text-align: left;
 	border: 1px solid #666;
+}
+*/
+.transparent-background{
+    background-color:rgba(255,255,0,0.3);
+}
+.coltest{
+    border: 5px red double;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-table{
+    background: radial-gradient(white, orange);
+}
+.menu-table h2{
+    text-align: center;
+    background: radial-gradient(white, orangered);
+    border-radius: 50%;
+}
+
+.menu-selection p{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px maroon solid;
+}
+.menu-selection a{
+    color: black;
+}
+.menu-selection a:hover{
+    color: red;
+}
+.menu-selection {
+    background: linear-gradient(to left, orange, white);
+    border: 2px red solid;
 }

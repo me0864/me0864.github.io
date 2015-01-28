@@ -41,10 +41,6 @@ $(document).ready(dishes);
 
 
 var slides = function () {
-    $('.dropdown-toggle').click(function () {
-        $('.dropdown-menu').toggle();
-    });
-
 
     $('.arrow-next').click(function () {
         var currentSlide = $('.active-slide');
@@ -154,3 +150,13 @@ $(document).ready(function(){
 		return false;
 	});
 });
+
+$(document).ready(function(){
+	$("li").click(function() {
+        var myClass = $(this).attr("class");
+        $(".description").hide();
+        $(".dish-"+myClass).show("fast");
+        });
+});
+
+
