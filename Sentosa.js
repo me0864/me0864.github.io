@@ -134,6 +134,13 @@ $(document).ready(function(){
 		return false;
 	});
 });
+$(document).ready(function(){
+	$(".icon-closechinese").click(function(){
+		$(".dishes-chinese").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
 
 $(document).ready(function(){
 	$(".thumbnail-vegetarian").click(function(){
@@ -142,9 +149,23 @@ $(document).ready(function(){
 		return false;
 	});
 });
+$(document).ready(function(){
+	$(".icon-closevegetarian").click(function(){
+		$(".dishes-vegetarian").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
 
 $(document).ready(function(){
 	$(".thumbnail-specials").click(function(){
+		$(".dishes-specials").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
+$(document).ready(function(){
+	$(".icon-closespecials").click(function(){
 		$(".dishes-specials").toggle("fast");
 		$(this).toggleClass("active");
 		return false;
