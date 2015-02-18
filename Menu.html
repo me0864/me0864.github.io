@@ -31,53 +31,53 @@ and open the template in the editor.
             </div>
         </div>
         
-        <div class="col-md-3 coltest menu-selection">
+        <div class="col-xs-12 col-md-3 coltest menu-selection">
             <p>Chinese</p>
             <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="csoups"><a href="#">Soups</a></li>
-                <li role="presentation" class="cappetizers"><a href="#">Appetizers</a></li>
-                <li role="presentation" class="chickandpork"><a href="#">Chicken and Pork</a></li>
-                <li role="presentation" class="beef"><a href="#">Beef</a></li>
-                <li role="presentation" class="shrimp"><a href="#">Shrimp</a></li>
-                <li role="presentation" class="vegetables"><a href="#">Vegetables</a></li>
-                <li role="presentation" class="chowmein"><a href="#">Chow Mein and Chop Suey</a></li>
-                <li role="presentation" class="friedrice"><a href="#">Fried Rice</a></li>
-                <li role="presentation" class="lomein"><a href="#">Lo Mein</a></li>
-                <li role="presentation" class="eggfooyoung"><a href="#">Egg Foo Young</a></li>
-                <li role="presentation" class="healthydiet"><a href="#">Healthy Diet Menu</a></li>
-                <li role="presentation" class="sideorders"><a href="#">Side Orders</a></li>
-                <li role="presentation" class="chef"><a href="#">Chef's Specials</a></li>
-                <li role="presentation" class="combo"><a href="#">Combo Platters</a></li>
-                <li role="presentation" class="clunch"><a href="#">Lunch Platters</a></li>
+                <li role="presentation" class="csoups"><a href="#csoupid">Soups</a></li>
+                <li role="presentation" class="cappetizers"><a href="#cappetizersid">Appetizers</a></li>
+                <li role="presentation" class="chickandpork"><a href="#chickandporkid">Chicken and Pork</a></li>
+                <li role="presentation" class="beef"><a href="#beefid">Beef</a></li>
+                <li role="presentation" class="shrimp"><a href="#shrimpid">Shrimp</a></li>
+                <li role="presentation" class="vegetables"><a href="#vegetablesid">Vegetables</a></li>
+                <li role="presentation" class="chowmein"><a href="#chowmeinid">Chow Mein and Chop Suey</a></li>
+                <li role="presentation" class="friedrice"><a href="#friedriceid">Fried Rice</a></li>
+                <li role="presentation" class="lomein"><a href="#lomeinid">Lo Mein</a></li>
+                <li role="presentation" class="eggfooyoung"><a href="#eggfooyoungid">Egg Foo Young</a></li>
+                <li role="presentation" class="healthydiet"><a href="#healthydietid">Healthy Diet Menu</a></li>
+                <li role="presentation" class="sideorders"><a href="#sideordersid">Side Orders</a></li>
+                <li role="presentation" class="chef"><a href="#chefid">Chef's Specials</a></li>
+                <li role="presentation" class="combo"><a href="#comboid">Combo Platters</a></li>
+                <li role="presentation" class="clunch"><a href="#clunchid">Lunch Platters</a></li>
             </ul>
             
             <p>Vegetarian</p>
             <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="vsoups"><a href="#">Soups</a></li>
-                <li role="presentation" class="vappetizers"><a href="#">Appetizers</a></li>
-                <li role="presentation" class="mainentree"><a href="#">Main Entree</a></li>
-                <li role="presentation" class="pasta"><a href="#">Pasta and Rice</a></li>
-                <li role="presentation" class="vegetarian"><a href="#">Vegetarian Specials</a></li>
-                <li role="presentation" class="vlunch"><a href="#">Lunch Specials</a></li>
+                <li role="presentation" class="vsoups"><a href="#vsoupsid">Soups</a></li>
+                <li role="presentation" class="vappetizers"><a href="#vappetizersid">Appetizers</a></li>
+                <li role="presentation" class="mainentree"><a href="#mainentreeid">Main Entree</a></li>
+                <li role="presentation" class="pasta"><a href="#pastaid">Pasta and Rice</a></li>
+                <li role="presentation" class="vegetarian"><a href="#vegetarianid">Vegetarian Specials</a></li>
+                <li role="presentation" class="vlunch"><a href="#vlunchid">Lunch Specials</a></li>
             </ul>
             
             <p>Specials</p>
             <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="ssoups"><a href="#">Soups</a></li>
-                <li role="presentation" class="sappetizers"><a href="#">Appetizers</a></li>
-                <li role="presentation" class="snoodles"><a href="#">Noodles</a></li>
-                <li role="presentation" class="sspecials"><a href="#">Sentosa Specials</a></li>
+                <li role="presentation" class="ssoups"><a href="#ssoupsid">Soups</a></li>
+                <li role="presentation" class="sappetizers"><a href="#sappetizersid">Appetizers</a></li>
+                <li role="presentation" class="snoodles"><a href="#snoodlesid">Noodles</a></li>
+                <li role="presentation" class="sspecials"><a href="#sspecialsid">Sentosa Specials</a></li>
             </ul>
         </div>
         
-        <div class="col-md-7 coltest menu-table">
+        <div class="col-xs-12 col-md-6 coltest menu-table">
             <h4>Select a category on the left to view the menu</h4>
             <p>NOTE: Prices listed here might not always reflect the actual prices of the items at the restaurant</p>
-            <div class="description row dish-csoups">
+            <div class="description row dish-csoups" id="csoupid">
                 
-                    <div class="col-xs-3"><h2>Soups</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+                    <div class="col-sm-12 col-md-3"><h2>Soups</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -97,7 +97,8 @@ and open the template in the editor.
                             </tr>
                             <tr>                                
                                 <td>House Wonton</td>
-                                <td colspan="2">6.95</td>
+                                <td></td>
+                                <td>6.95</td>
                             </tr>
                             <tr>                                
                                 <td>Chicken Rice or Noodle</td>
@@ -117,10 +118,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-cappetizers">
-                    <div class="col-xs-3"><h2>Appetizers</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-cappetizers" id="cappetizersid">
+                    <div class="col-sm-12 col-md-3"><h2>Appetizers</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -174,10 +175,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-chickandpork">
-                    <div class="col-xs-3"><h2>Chicken<br>and<br>Pork</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-chickandpork" id="chickandporkid">
+                    <div class="col-sm-12 col-md-3"><h2>Chicken<br>and<br>Pork</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -241,10 +242,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-beef">
-                    <div class="col-xs-3"><h2>Beef</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-beef" id="beefid">
+                    <div class="col-sm-12 col-md-3"><h2>Beef</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -304,10 +305,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-shrimp">
-                    <div class="col-xs-3"><h2>Shrimp</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-shrimp" id="shrimpid">
+                    <div class="col-sm-12 col-md-3"><h2>Shrimp</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -362,10 +363,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-vegetables">
-                    <div class="col-xs-3"><h2>Vegetables</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-vegetables" id="vegetablesid">
+                    <div class="col-sm-12 col-md-3"><h2>Vegetables</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -399,10 +400,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-chowmein">
-                    <div class="col-xs-3"><h2>Chow Mein<br>and<br>Chop Suey</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-chowmein" id="chowmeinid">
+                    <div class="col-sm-12 col-md-3"><h2>Chow Mein<br>and<br>Chop Suey</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -423,10 +424,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-friedrice">
-                    <div class="col-xs-3"><h2>Fried Rice</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-friedrice" id="friedriceid">
+                    <div class="col-sm-12 col-md-3"><h2>Fried Rice</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -447,10 +448,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-lomein">
-                    <div class="col-xs-3"><h2>Lo Mein</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-lomein" id="lomeinid">
+                    <div class="col-sm-12 col-md-3"><h2>Lo Mein</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -471,10 +472,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-eggfooyoung">
-                    <div class="col-xs-3"><h2>Egg Foo Young</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-eggfooyoung" id="eggfooyoungid">
+                    <div class="col-sm-12 col-md-3"><h2>Egg Foo Young</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -492,10 +493,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-healthydiet">
-                    <div class="col-xs-3"><h2>Healthy Diet Menu</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-healthydiet" id="healthydietid">
+                    <div class="col-sm-12 col-md-3"><h2>Healthy Diet Menu</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -537,10 +538,10 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-sideorders">
-                    <div class="col-xs-3"><h2>Side Orders</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-sideorders" id="sideordersid">
+                    <div class="col-sm-12 col-md-3"><h2>Side Orders</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -573,10 +574,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-chef">
-                    <div class="col-xs-3"><h2>Chef's Specials</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-chef" id="chefid">
+                    <div class="col-sm-12 col-md-3"><h2>Chef's Specials</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -644,10 +645,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-combo">
-                    <div class="col-xs-3"><h2>Combo Platter</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-combo" id="comboid">
+                    <div class="col-sm-12 col-md-3"><h2>Combo Platter</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -761,11 +762,11 @@ and open the template in the editor.
                     </table>
                 </div>
             </div>
-            <div class="description row dish-clunch">
-                <div class="col-xs-3"><h2>Lunch Platter</h2></div>
-                    <div class="col-xs-6">
+            <div class="description row dish-clunch" id="clunchid">
+                <div class="col-sm-12 col-md-3"><h2>Lunch Platter</h2></div>
+                    <div class="col-sm-12 col-md-6">
 
-                    <table>
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -876,10 +877,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-vsoups">
-                <div class="col-xs-3"><h2>Soups</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-vsoups" id="vsoupsid">
+                <div class="col-sm-12 col-md-3"><h2>Soups</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -919,10 +920,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-vappetizers">
-                <div class="col-xs-3"><h2>Appetizers</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-vappetizers" id="vappetizersid">
+                <div class="col-sm-12 col-md-3"><h2>Appetizers</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -964,11 +965,11 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-mainentree">
-                <div class="col-xs-3"><h2>Main Entrees</h2></div>
-                    <div class="col-xs-6">
+            <div class="description row dish-mainentree" id="mainentreeid">
+                <div class="col-sm-12 col-md-3"><h2>Main Entrees</h2></div>
+                    <div class="col-sm-12 col-md-6">
                 
-                    <table>
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1041,10 +1042,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-pasta">
-                <div class="col-xs-3"><h2>Pasta and Rice</h2></div>
-                    <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-pasta" id="pastaid">
+                <div class="col-sm-12 col-md-3"><h2>Pasta and Rice</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1082,10 +1083,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-vegetarian">
-                <div class="col-xs-3"><h2>Vegetarian Specials</h2></div>
-                    <div class="col-xs-6">
-                        <table>
+            <div class="description row dish-vegetarian" id="vegetarianid">
+                <div class="col-sm-12 col-md-3"><h2>Vegetarian Specials</h2></div>
+                    <div class="col-sm-12 col-md-6">
+                        <table class="table table-hover" >
                             <thead>
                                 <tr>
                                     <th scope="col" >Item</th>
@@ -1132,11 +1133,11 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-            <div class="description row dish-vlunch">
-                <div class="col-xs-3"><h2>Lunch Specials</h2></div>
-                    <div class="col-xs-6">
+            <div class="description row dish-vlunch" id="vlunchid">
+                <div class="col-sm-12 col-md-3"><h2>Lunch Specials</h2></div>
+                    <div class="col-sm-12 col-md-6">
 
-                    <table>
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1184,10 +1185,10 @@ and open the template in the editor.
                     </table>
                     </div>
                 </div>
-            <div class="description row dish-ssoups">
-                <div class="col-xs-3"><h2>Soups</h2></div>
-                <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-ssoups" id="ssoupsid">
+                <div class="col-sm-12 col-md-3"><h2>Soups</h2></div>
+                <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1217,10 +1218,10 @@ and open the template in the editor.
                     </table>
                 </div>
                 </div>
-            <div class="description row dish-sappetizers">
-                <div class="col-xs-3"><h2>Appetizers</h2></div>
-                <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-sappetizers" id="sappetizersid">
+                <div class="col-sm-12 col-md-3"><h2>Appetizers</h2></div>
+                <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1242,10 +1243,10 @@ and open the template in the editor.
                     </table>
                 </div>
                 </div>
-            <div class="description row dish-snoodles">
-                <div class="col-xs-3"><h2>Noodles</h2></div>
-                <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-snoodles" id="snoodlesid">
+                <div class="col-sm-12 col-md-3"><h2>Noodles</h2></div>
+                <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
@@ -1303,10 +1304,10 @@ and open the template in the editor.
                     </table>
                 </div>
                 </div>
-            <div class="description row dish-sspecials">
-                <div class="col-xs-3"><h2>Sentosa Specials</h2></div>
-                <div class="col-xs-6">
-                    <table>
+            <div class="description row dish-sspecials" id="sspecialsid">
+                <div class="col-sm-12 col-md-3"><h2>Sentosa Specials</h2></div>
+                <div class="col-sm-12 col-md-6">
+                    <table class="table table-hover" >
                         <thead>
                             <tr>
                                 <th scope="col" >Item</th>
