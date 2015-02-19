@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 body{
     background: radial-gradient(white, orangered);
+    padding-top: 40px;
 }
 .icon-close {
     float: right;
@@ -57,137 +58,6 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce0100",endColorstr="#fe1a00");
 }
 
-/* Carousel */
-
-.slider {
-    position: relative;
-    width: 100%;
-    height: 450px;
-}
-
-.slide {
-    background-size: cover;
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 10);
-}
-
-.active-slide {
-    display: block;
-}
-
-.slide-copy h1 {
-    color: #363636;  
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: 105px;
-    margin-bottom: 0px;
-}
-
-.slide-copy h2 {
-    color: #b7b7b7;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 5px;
-}
-
-.slide-copy p {
-    color: #959595;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.15em;
-    line-height: 1.75em;
-    margin-bottom: 15px;
-    margin-top: 16px;
-}
-.slide-img {
-    text-align: right;
-}
-
-/* Slide feature */
-
-.slide-feature {
-    text-align: center;
-    background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
-    height: 470px;
-}
-
-.slide-feature img {
-    margin-top: 112px;
-    margin-bottom: 28px;
-}
-
-.slide-feature a {
-    display: block;
-    color: #6fc5e0;
-    font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-.intro-slide{
-    background-image: url('Images/Background.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-.intro-slide h1{
-    padding-left: 50px;
-    font-family: Allura ;
-    line-height: 1em;
-    color: #ff0000;
-    font-size: 60px;
-    text-shadow:0px 0px 0 rgb(231,-24,-24),0px 1px 0 rgb(216,-39,-39),0px 2px 0 rgb(202,-53,-53),0px 3px 0 rgb(187,-68,-68),0px 4px 0 rgb(173,-82,-82),0px 5px 0 rgb(158,-97,-97), 0px 6px 0 rgb(144,-111,-111),0px 7px 6px rgba(0,0,0,0.3),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
-
-.intro-slide p{
-    padding-left: 55px;
-    color: white;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 10);
-}
-.intro-slide a{
-    color: black;
-}
-
-.slider-nav {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.arrow-prev {
-    margin-right: 45px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 9px;
-}
-
-.arrow-next {
-    margin-left: 45px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 9px;
-}
-
-.slider-dots {
-    list-style: none;
-    display: inline-block;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-.slider-dots li {
-    color: #bbbcbc;
-    display: inline;
-    font-size: 30px;
-    margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-    color: #363636;
-}
 
 /* App links */
 
@@ -222,29 +92,10 @@ body{
     text-align: center;
 }
 
-.thumbnail{
-    width: 60%;
-}
-.thumbnail img{
-    border: 6px double tomato;
-    border-radius: 20px;
-}
-.thumbnail img:hover{
-    border-color: red;
-    cursor: pointer;
-    background: white
-}
-.thumbnail:after{
-    content: "";
-}
-
 .learn-more{
     background-color:#640000;  
     border: 1px red solid;
 
-}
-.learn-more .col-md-4{
-    border-right: 1px red solid;
 }
 .learn-more a{
     color:navajowhite;
@@ -334,7 +185,7 @@ body{
     margin-top: 0px;
     font-size: 23px;
 }
-table {
+/*table {
     border-collapse: separate;
     border-spacing: 0;
 }
@@ -367,7 +218,7 @@ td:first-child {
 }
 td:last-child {
     border-right: 1px solid #cecfd5;
-}
+}*/
 
 /*Location*/
 .map{
@@ -532,24 +383,24 @@ footer{
 .fav-dishes div{
     display: inline-block;
 }
-.col-sm-2{
-    width: 18%;
-}
+
 .popup { 
     color: black;
 }
 
 .popup a, .popup a:visited {
-        display: block;
+    display: block;
 	margin: 0;
-        text-align: center;
+    text-align: center;
 	text-decoration: none;
-        border: none;
+    border: none;
 }
+
 
 .popup a span {
 	display: none;
 }
+
 /*
 .popup a:hover span {
         border-radius: 10px;
@@ -598,4 +449,21 @@ footer{
 .menu-selection {
     background: linear-gradient(to left, orange, white);
     border: 2px red solid;
+}
+
+.thumbnail{
+    background: none;
+    border: none;
+}
+
+.slide-intro{
+    height: 405px;
+    background-image: url("Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.slider{
+    width: 100%;
 }

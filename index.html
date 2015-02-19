@@ -16,108 +16,126 @@ and open the template in the editor.
         
     </head>
     <body>
-        <div class = "nav top-bar">            
+
+        <!-- Navigation -->
+        <div class = "navbar navbar-default navbar-fixed-top navbar-inverse">            
             <div class = "container">
-                <ul class="pull-left">
-                    <li><a href="#" class="hours-click">Hours</a></li>
-                </ul>
+                <div class ="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="" class="navbar-brand" data-toggle="modal" data-target="#modal-hours">Hours <span class="glyphicon glyphicon-time"></span></a>    
+                </div>
 
-                <ul class="pull-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="Menu.html">Menu</a></li>
-                    <li><a href="Location.html">Location</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="example">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class=><a href="#">Home</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="Location.html">Location</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div class="slider">
-            <div class="container">
+        <!-- Carousel -->
 
-            <div class="slide intro-slide active-slide jumbotron">
-                <div class="container" >
-                    <div class="row">
-                        <div class="slide-copy col-xs-5">
-                            <h1>
-                                Sentosa Restaurant
-                            </h1>
-                            <p>
-                                Specializes in Authentic Chinese and Vegetarian Cuisine
-                            </p>
-                            <p>
-                                Phone: (732) 892-9595 / (732) 892-4569
-                            </p>
-                        </div>
+        <div class="container slider">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="container slide-intro">
+                                    <h1>
+                                        Sentosa Restaurant
+                                    </h1>
+                                    <p>
+                                        Specializes in Authentic Chinese and Vegetarian Cuisine
+                                    </p>
+                                    <p>
+                                        Phone: (732) 892-9595 / (732) 892-4569
+                                    </p>
+                            
                     </div>
-                </div>      
-            </div>
+                </div>
+                <div class="item">
+                    <div class="slide neighborhood-guides transparent-background">
+                        <div class="container">
+                            <h2>Free Items</h2>
+                            <p>With Orders Over Certain Amounts</p>
+                            <p>*Only apply to Take Outs and Deliveries</p>
+                            <div class = "row">
+                                <div class = "col-sm-3">
+                                    <h5 class="fav-title">Orders Over 15</h5>
+                                    <div class = "thumbnail img-responsive">
+                                        <img src = "#">
+                                    </div>
+                                    <p>Free Wonton Soup or Egg Roll</p>
+                                </div>
 
-            <div class="slide neighborhood-guides transparent-background">
-                <div class="container">
-                    <h2>Free Items</h2>
-                    <p>With Orders Over Certain Amounts</p>
-                    <p>*Only apply to Take Outs and Deliveries</p>
-                    <div class = "row">
-                        <div class = col-md-4>
-                            <h5 class="fav-title">Orders Over 15</h5>
-                            <div class = "thumbnail">
-                                <img src = "#">
-                            </div>
-                            <p>Free Wonton Soup or Egg Roll</p>
-                        </div>
+                                <div class = "col-sm-3 col-sm-offset-1">
+                                    <h5 class="fav-title">Orders Over 25</h5>
+                                    <div class = "thumbnail img-responsive">
+                                        <img src = "#">
+                                    </div>
+                                    <p>Free Steamed Dumplings</p>
+                                </div>
 
-                        <div class = col-md-4>
-                            <h5 class="fav-title">Orders Over 25</h5>
-                            <div class = "thumbnail">
-                                <img src = "#">
+                                <div class = "col-sm-3 col-sm-offset-1">
+                                    <h5 class="fav-title">Orders Over 35</h5>
+                                    <div class = "thumbnail img-responsive">
+                                        <img src = "Images/GenChicken.jpg">
+                                    </div>
+                                    <p>Free General Tso's Chicken</p>
+                                </div>
                             </div>
-                            <p>Free Steamed Dumplings</p>
-                        </div>
+                        </div>       
+                    </div> 
+                </div>
+                
+              </div>
 
-                        <div class = col-md-4>
-                            <h5 class="fav-title">Orders Over 35</h5>
-                            <div class = "thumbnail">
-                                <img src = "Images/GenChicken.jpg">
-                            </div>
-                            <p>Free General Tso's Chicken</p>
-                        </div>
-                    </div>
-                </div>       
-            </div> 
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
         </div>
-
-        <div class="slider-nav">
-            <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
-            <ul class="slider-dots">
-                <li class="dot active-dot">&bull;</li>
-                <li class="dot">&bull;</li>
-            </ul>
-            <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
-        </div> 
-
-
+    
         <div class = "neighborhood-guides">
             <div class="container">
                 <h2>Customer Favorites</h2>
                 <p>Check out the customer favorites in each category</p>
                 <div class = "row">
-                    <div class = col-md-4>
+                    <div class = "col-sm-3">
                         <h5 class="fav-title">Chinese</h5>
-                        <div class = "thumbnail thumbnail-chinese">
+                        <div class = "thumbnail img-responsive thumbnail-chinese">
                             <img src = "Images/GenChicken.jpg">
                         </div>
                     </div>
 
-                    <div class = col-md-4>
+                    <div class = "col-sm-3 col-sm-offset-1">
                         <h5 class="fav-title">Vegetarian</h5>
-                        <div class = "thumbnail thumbnail-vegetarian">
+                        <div class = "thumbnail img-responsive thumbnail-vegetarian">
                             <img src = "Images/SesVegChi.jpg">
                         </div>
                     </div>
 
-                    <div class = col-md-4>
+                    <div class = "col-sm-3 col-sm-offset-1">
                         <h5 class="fav-title">Specials</h5>
-                        <div class = "thumbnail thumbnail-specials">
+                        <div class = "thumbnail img-responsive thumbnail-specials">
                             <img src = "Images/SatayChi.jpg">
                         </div>
                     </div>
@@ -129,48 +147,43 @@ and open the template in the editor.
             <div class="container">
             <p>Chinese Dishes (pics will be added in the future)</p>
             <div class="fav-dishes">
-                <div class="icon-closechinese">
-                    <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-                </div>
-                <div class="col-sm-2 popup">
-                    <a href="#"> 
-                        <p>General Tso's Chicken<span>what what what what</span></p>
-                        <div class="thumbnail">
+
+                <div class="col-sm-2 text-center popup">
+
+                        <p>General Tso's Chicken</p>
+                        <div class="thumbnail img-responsive">
                             <img src="#"> 
                         </div>
-                    </a>
                 </div>
-                <div class="col-sm-2 popup">
-                    <a href="#"> 
-                        <p>Sweet and Sour Chicken<span>what what what what</span></p>
-                        <div class="thumbnail">
+                <div class="col-sm-2 text-center popup">
+                        <p>Sweet and Sour Chicken</p>
+                        <div class="thumbnail img-responsive">
                             <img src="#"> 
                         </div>
-                    </a>
                 </div>
-                <div class="col-sm-2 popup">
-                    <a href="#"> 
-                        <p>Lo Mein<span>what what what what</span></p>
-                        <div class="thumbnail">
+                <div class="col-sm-2 text-center popup">
+                        <p>Lo Mein</p>
+                        <div class="thumbnail img-responsive">
                             <img src="#"> 
                         </div>
-                    </a>
                 </div>
-                <div class="col-sm-2 popup">
-                    <a href="#"> 
-                        <p>Crab Rangoon<span>what what what what</span></p>
-                        <div class="thumbnail">
+                <div class="col-sm-2 text-center popup">
+                        <p>Crab Rangoon</p>
+                        <div class="thumbnail img-responsive">
                             <img src="#"> 
                         </div>
-                    </a>
                 </div>
-                <div class="col-sm-2 popup">
-                    <a href="#"> 
-                        <p>Boneless Spare Ribs<span>what what what what</span></p>
-                        <div class="thumbnail">
+                <div class="col-sm-2 text-center popup">
+                        <p>Boneless Spare Ribs</p>
+                        <div class="thumbnail img-responsive">
                             <img src="#"> 
                         </div>
-                    </a>
+                </div>
+
+                <div class="pull-right">
+                    <button type="button" class="btn btn-warning">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
                 </div>
             </div>    
             </div>
@@ -180,49 +193,41 @@ and open the template in the editor.
             <div class="container">
             <p>Vegetarian Dishes (pics will be added in the future)</p>
             <div class="fav-dishes">
-            <div class="icon-closevegetarian">
-                <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-            </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Sesame Veg. Chicken<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Sesame Veg. Chicken</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Lo-Han Chicken<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Lo-Han Chicken</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Veg. Chicken Nuggets<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Veg. Chicken Nuggets</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Autumn Roll<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Autumn Roll</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Sunshine Ribs<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Sunshine Ribs</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
+                <div class="pull-right">
+                    <button type="button" class="btn btn-warning">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </div>            
             </div>
             </div>
         </div>
@@ -230,95 +235,96 @@ and open the template in the editor.
         <div class="panel dishes dishes-specials">
             <div class="container">
             <p>Specials (pics will be added in the future)</p>
+            
             <div class="fav-dishes">
-            <div class="icon-closespecials">
-                <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-            </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Tom Yum Soup<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Tom Yum Soup</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Satay Chicken<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Satay Chicken</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Pad Thai<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Pad Thai</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Singapore Mee Hoon<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Singapore Mee Hoon</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
-            <div class="col-sm-2 popup">
-                <a href="#"> 
-                    <p>Pineapple Chicken<span>what what what what</span></p>
-                    <div class="thumbnail">
+            <div class="col-sm-2 text-center popup">
+                    <p>Pineapple Chicken</p>
+                    <div class="thumbnail img-responsive">
                         <img src="#"> 
                     </div>
-                </a>
             </div>
+                <div class="pull-right">
+                    <button type="button" class="btn btn-warning">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </div>
             </div>
             </div>
         </div>
 
+        <div class="container">
+            <div class="modal fade" id="modal-hours">
+                <div class="modal-dialog">
+                    <div class="modal-content well">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2>Restaurant Hours</h2>
+                        </div>
 
-        <div class="panel hours">
-            <div class="icon-close hours-close">
-                <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+                        <table class="table">
+                            <tr>
+                                <td>Monday</td>
+                                <td>4:00PM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>11:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>11:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>11:00AM - 10:00PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>11:00AM - 10:30PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>11:00AM - 10:30PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>12:00PM - 10:00PM</td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+
+
+                </div>
             </div>
-
-            <h3>Hours</h3>
-            <table>
-                <tr>
-                    <td>Monday</td>
-                    <td>4:00PM - 10:00PM</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>11:00AM - 10:00PM</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>11:00AM - 10:00PM</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>11:00AM - 10:00PM</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>11:00AM - 10:30PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>11:00AM - 10:30PM</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>12:00PM - 10:00PM</td>
-                </tr>
-
-            </table>
-        </div>        
-
+        </div>
+    
         <div class= "learn-more">
+            <div class="row">
             <div class= "container">
 
                 <div class="col-md-4">
@@ -346,6 +352,7 @@ and open the template in the editor.
                     </a>    
                 </div> 
             </div>
+        </div>
         </div>
 
         <div class="contacts">
