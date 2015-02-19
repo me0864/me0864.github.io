@@ -457,13 +457,32 @@ footer{
 }
 
 .slide-intro{
-    height: 405px;
+    height: 410px;
     background-image: url("Images/Background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 100;
+    line-height: 410px;
+}
+
+.slide-intro h1{
+    font-family: Allura;
+    font-weight: 900;
+    color: red;
+}
+.slide-intro p{
+    color: red;
 }
 
 .slider{
     width: 100%;
 }
+
+.v-center{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+    top: 50px;
+}
+
+
