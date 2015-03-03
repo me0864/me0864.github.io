@@ -19,7 +19,7 @@ $(document).ready(function(){
 		return false;
 	});
 });
-/*
+
 $(document).ready(function(){
     $(".thumbnail").hover(function() {
         $(this).siblings('h5').addClass("fav-hover")
@@ -27,7 +27,6 @@ $(document).ready(function(){
         $(this).siblings('h5').removeClass("fav-hover");
     });
 });
-*/
 
 $(document).ready(function(){
 	$(".contacts-show").click(function(){

@@ -485,4 +485,8 @@ footer{
     top: 50px;
 }
 
+.thumbnail img{
+    border-radius: 20px;
+}
+
 
