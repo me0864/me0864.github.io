@@ -91,11 +91,14 @@ body{
     margin-bottom: 13px;
     text-align: center;
 }
+.neighborhood-guides img{
+    border: 3px red solid ;
+}
 
 .learn-more{
-    background-color:#640000;  
-    border: 1px red solid;
-
+    background: maroon;
+    border-bottom: 1px orangered solid;
+    
 }
 .learn-more a{
     color:navajowhite;
@@ -104,6 +107,10 @@ body{
 }
 .learn-more a:hover{
     color: white;
+}
+
+.learn-more .col-md-4{
+    border-bottom: 1px orangered solid;
 }
 
 /*Menu*/
@@ -457,7 +464,7 @@ footer{
 }
 
 .slide-intro{
-    height: 410px;
+    height: 430px;
     background-image: url("Images/Background.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -488,5 +495,14 @@ footer{
 .thumbnail img{
     border-radius: 20px;
 }
+.carousel-inner h1{
+    font-size: 70px;
+}
 
+.carousel-inner p{
+    font-size: 15px;
+}
 
+.navbar {
+    background: linear-gradient(maroon, maroon);
+}
